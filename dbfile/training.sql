@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Feb 23, 2020 at 06:57 AM
+-- Generation Time: Feb 23, 2020 at 08:51 AM
 -- Server version: 10.1.37-MariaDB
 -- PHP Version: 5.6.39
 
@@ -73,6 +73,7 @@ CREATE TABLE `company` (
   `name` varchar(25) NOT NULL,
   `manager` varchar(25) NOT NULL,
   `contactno` bigint(10) NOT NULL,
+  `email` varchar(200) NOT NULL,
   `username` varchar(30) NOT NULL,
   `password` varchar(30) NOT NULL,
   `flag` int(11) NOT NULL
@@ -82,9 +83,9 @@ CREATE TABLE `company` (
 -- Dumping data for table `company`
 --
 
-INSERT INTO `company` (`id`, `name`, `manager`, `contactno`, `username`, `password`, `flag`) VALUES
-(3, 'Tata Consultancy Services', 'Aneesh', 949671683, 'aneesh@123', 'aneesh123', 1),
-(4, 'InfoSys', 'Athul', 952665556, 'cds', 'tyy', 1);
+INSERT INTO `company` (`id`, `name`, `manager`, `contactno`, `email`, `username`, `password`, `flag`) VALUES
+(3, 'Tata Consultancy Services', 'Aneesh', 949671683, '', 'aneesh@123', 'aneesh123', 1),
+(4, 'InfoSys', 'Athul', 952665556, '', 'cds', 'tyy', 1);
 
 -- --------------------------------------------------------
 
@@ -105,7 +106,9 @@ CREATE TABLE `notification` (
 INSERT INTO `notification` (`id`, `message`, `date`) VALUES
 (1, 'Test Notifications', '2020-02-23'),
 (2, 'Test msg', '2020-02-16'),
-(3, 'test helloooo', '2020-02-23');
+(3, 'test helloooo', '2020-02-23'),
+(4, '', '2020-02-23'),
+(5, '', '2020-02-23');
 
 -- --------------------------------------------------------
 
@@ -330,7 +333,7 @@ ALTER TABLE `company`
 -- AUTO_INCREMENT for table `notification`
 --
 ALTER TABLE `notification`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `placement`
