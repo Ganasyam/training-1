@@ -57,7 +57,7 @@ box-shadow: 13px -11px 11px 3px rgba(0,0,0,0.35);">
 
 <tr>
    <td>No of Backlogs Allowed</td>
-   <td> <input type="number" name="bcklog"  class="form-control" min="1" max="10" step="1" required></td>
+   <td> <input type="number" name="bcklog"  class="form-control" min="0" max="10" step="1" required></td>
    
 </tr>
 
