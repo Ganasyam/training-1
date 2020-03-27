@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
-<body style="background-color: white;" >
+<body style="background-color: lightslategray;" >
 <!-- Grey with black text -->
 <!-- <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
   <ul class="navbar-nav">
@@ -74,11 +74,11 @@
 
                     <tr>
                         <td></td>
-                        <td><a href="companylogin.php">Company LogIn</a> </td>
+                        <td><a href="companylogin.php"><font color="red">Company Login</font></a> </td>
                     </tr>
                     <tr>
                     <td></td>
-                    <td> <a href="admin.php">Admin LogIn</a>  </td>
+                    <td> <a href="admin.php"><font color="red">Admin Login</font></a>  </td>
                     </tr>
                     
                 </table>

@@ -291,6 +291,7 @@ input[type=text]:placeholder {
     <li class="nav-item">
       <a class="nav-link active" href="admin.php">Log Out</a>
     </li>
+
   </ul>
 </nav>
     

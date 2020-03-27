@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
-<body style="background-color: white;" >
+<body style="background-color: bisque;" >
 <!-- Grey with black text -->
 <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
   <ul class="navbar-nav">
@@ -19,8 +19,8 @@
 <div class="container">
 <br><br><br><br>
 
-<center><h1> TRAINING & Placement Cell </h1></center>
-<center><h4>Student</h4></center>
+<center><h1><i><strong>TRAINING AN PLACEMENT CELL</i></strong></h1></center>
+<center><h4>STUDENT</h4></center>
         <div class="row">
             <div class="col col-12 col-sm-3">
 
